@@ -1,6 +1,10 @@
 # CLARA Changelog
 
 
+## 22.8.0 (14/10/2019)
+-[#1367][FEATURE] champ d'application lors de l'étape 4.
+
+
 ## 22.7.0 (14/10/2019)
 -[#1393][FEATURE] un simple admin ne peut pas supprimer une aide
 
