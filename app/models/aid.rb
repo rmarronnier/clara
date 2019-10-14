@@ -24,6 +24,8 @@ class Aid < ApplicationRecord
   extend FriendlyId  
   include PgSearch
 
+  enum publication_status: ListPublicationStatus.new.call
+
   after_save    { ExpireCacheJob.perform_later }
   after_update  { ExpireCacheJob.perform_later }
   after_destroy { ExpireCacheJob.perform_later }

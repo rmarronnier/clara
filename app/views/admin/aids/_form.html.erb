@@ -34,6 +34,9 @@
             <a href="#tab_4" id="label_tab_4" class="js-tablist__link">S'applique si</a>
           </li>
         <% end %>
+        <li class="js-tablist__item">
+          <a href="#tab_5" id="label_tab_5" class="js-tablist__link">Publier</a>
+        </li>
       </ul>
       <div id="tab_1" class="js-tabcontent">
         <% page.attributes.each_with_index do |attribute, index_nb| %>
@@ -101,6 +104,11 @@
           </div>
         </div>        
       <% end %>
+    <div id="tab_5" class="js-tabcontent">
+      <div class="big-left-margin">
+        L'aide que vous venez de créer a été conservée en tant que brouillon. Si vous estimez que cette aide est prête à être publiée sur le site, vous pouvez demander sa relecture.
+      </div>
+    </div>        
     </div>
   </div> 
 
