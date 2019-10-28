@@ -1,5 +1,7 @@
 # CLARA Changelog
 
+## 22.12.0 (28/10/2019)
+-[#1244][DESIGN] Page liste des axes
 
 ## 22.12.0 (25/10/2019)
 -[#1403][DESIGN] refonte graphique du BO
